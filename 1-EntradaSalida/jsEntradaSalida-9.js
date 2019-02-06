@@ -5,5 +5,21 @@ en el cuadro de texto "RESULTADO".*/
 function mostrarAumento()
 {
 
+	var importe;
+	var aumento;
+	var sueldoFinal;
+
+	importe=sueldo.value;
+	importe=parseInt(importe);
+	aumento=importe*10/100;
+
+	sueldoFinal=aumento+importe;
+
+	resultado.value=sueldoFinal;
 	
-}
+	
+
+} 
+
+	
+

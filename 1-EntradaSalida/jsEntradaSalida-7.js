@@ -63,7 +63,7 @@ function dividir()
     num2=numeroDos.value;
     num2=parseInt(num2);
 
-    dividir=num1/num2;
+    dividir=num1%num2;
 
     alert("la division es " + dividir);
 }
