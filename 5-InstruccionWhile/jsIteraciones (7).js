@@ -6,6 +6,9 @@ function mostrar()
 	var respuesta='si';
 
 	while()
+	{
+		
+	}
 
 
 document.getElementById('suma').value=acumulador;
